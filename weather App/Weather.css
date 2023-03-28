@@ -1,0 +1,78 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,#36d1dc,#5b86e5);
+}
+
+
+
+.container .title{
+    padding: 100px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container .input{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.container #location-input{
+    background-color: aliceblue;
+    border: 1.5px solid black;
+    outline: none;
+    padding: 8px 10px;
+    width: 240px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.container #location-input:focus{
+    box-shadow: 0px 0px 3px blue;
+}
+
+#btn{
+    width: 60px;
+    background-color: darkgreen;
+    color: white;
+    padding: 7px 10px;
+    border: green;
+   height: 40px;
+   border-radius: 5px;
+   cursor: pointer;
+
+
+}
+
+.temp{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+#weather-desc{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 8px;
+}
+
+#location{
+    text-align: center;
+        font-size: x-large;
+       
+        padding: 8px;
+}
+
